@@ -1,0 +1,124 @@
+
+% The MIT License (MIT)
+% 
+% Copyright (c) 2015 Daniil Belyakov
+%
+% Permission is hereby granted, free of charge, to any person obtaining a copy
+% of this software and associated documentation files (the "Software"), to deal
+% in the Software without restriction, including without limitation the rights
+% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+% copies of the Software, and to permit persons to whom the Software is
+% furnished to do so, subject to the following conditions:
+%
+% The above copyright notice and this permission notice shall be included in all
+% copies or substantial portions of the Software.
+%
+% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+
+% Set applicant's personal data for header
+\name{Connor E. Tluck}
+\address{215 East 3rd Street, Apt 2F \linebreak New York, NY 10009}
+\contacts{860-573-6377 \linebreak tluckconnor@gmail.com \linebreak connor-tluck.com}
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+	
+	% Objective Section
+	\begin{cvsection}{Objective}
+		I am a trained engineer with a creative approach to problem solving. During my time working as a civil engineer I was always trying to think outside the box, optimize our existing workflows and learn new technology to make my team and myself more effective. This ambition ultimately took the form of learning to program, leveraging that love of scalable and custom solutions to build out tools internally for traffic analysis and automate the highway design process through parametric modeling projects. This passion for innovation and learning has carried with me as I transitioned to the geospatial world through Nearmap, working under various titles and teams. In my free time outside of work I stay heavily engaged with personal projects and initiatives leveraging as much as possible recent developments in AI and LLM technologies.  
+        
+	\end{cvsection}
+	
+	% % Skills Section
+	% \begin{cvsection}{Skills}
+	% 	\textbf{Coding:} Python, JavaScript \\
+	% 	\textbf{Databases, Frameworks, and Front End:} Folium, Mapbox, PYMongo/DBMongo SQL, Openlayers, HTML, QTDesigner, REST API, Flask \\
+	% 	\textbf{AWS:} S3, EC2, Lambda, CloudFront
+	% \end{cvsection}
+	
+	% Work History Section
+	\begin{cvsection}{Work History}
+		\begin{cvsubsection}{Strategic Account Manager}{Nearmap}{Mar. 2024 to Current}
+			\begin{itemize}
+				\item Responsible for managing \textbf{\$1.3 million} dollar quota representing the top 60 engineering and telecommunication firms in the US. 
+				\item Closed the largest enterprise engineering contract at the company with an increase of \textbf{\$570,000} in annual revenue. 
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Solution Architect}{Nearmap}{Aug. 2022 to Mar. 2024}
+		\begin{itemize}
+                \item Provided enterprise solutions across multiple verticals, including AEC, utilities, insurance, and solar.
+                 \item Developed a variety of web applications leveraging \textbf{Javascript} and \textbf{NodeJS} to build out internal support applications, demo gallery applications and other external client facing tools for processing company data via API more effectively.  
+                \item Created Nearmap's first SDK for data download of imagery, 3D, and AI content, enabling asynchronous delivery for fast tile downloads and unit testing for seamless CI/CD integration all written in \textbf{Python}
+                \item Delivered AI vector datasets for the insurance vertical, specifically tailored for large-scale parcel-level analysis. Processing done via work in \textbf{AWS EC2 Instances} 
+                \item Conducted general API prototyping using \textbf{Flask} and \textbf{FastAPI}, primarily for use with JavaScript front-end services.
+            \end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Solutions Engineer}{Nearmap}{Jan. 2021 to Aug. 2022}
+		\begin{itemize}
+                 \item Technology resource assisting Strategic Account Manager on closing of a \textbf{\$1.4 Million} dollar imagery partner contract for major tech player. Delivery required custom \textbf{Python} support to handle nation wide footprint delivery. 
+                \item Made significant contributions to leverage industry knowledge to build out the AEC value proposition and marketing strategy.
+                \item Created industry-specific demonstrations leveraging company data built on various platforms like \textbf{Esri, Autodesk, Bentley, Openlayers, Mapbox}, and others.
+                \item Took responsibility for proving product value, closing new business, up-selling current clients, and negotiating large enterprise agreements from a technical perspective.
+                \item Developed workflows to improve internal processes, including coverage analysis scripting, raster content vectorization, and full-stack content delivery.
+            \end{itemize}
+
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Civil/Highway Engineer EIT}{HDR}{Sept. 2018 to Jan. 2021}
+			\begin{itemize}
+				\item NYSDOT Kew Gardens Interchange Phase 4 Design Build Work Zone Traffic Control Team. Developed detailed staging layouts for a complex 5-stage interchange reconstruction project over a 3 year construction period. 
+                \item Project contributor involved with drainage team for high profile  \textbf{\$3.3 billion} dollar Hampton Roads Bridge Tunnel project.
+                 \item Responsible for building out traffic analysis database in \textbf{PostgresSQL} along with coding initial \textbf{Python} processing queries to run analysis on existing traffic route data for recommendations to TXDOT.  
+                
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Civil/Highway Engineer EIT}{HW Lochner}{Jan. 2016 to Sept. 2018}
+			\begin{itemize}
+				\item Designed horizontal and vertical geometry for proposed roadways. Geometry was matched with design of proposed super elevation for traveled way and always made an effort to take into consideration design standards outlined by the DOT
+				\item Established temporary staging for use during the construction phase in the form of pavement markings and temporary barrier layouts.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+
+    	\begin{cvsection}{Education}
+		\begin{cvsubsection}{Storrs, CT}{University of Connecticut}{2012 - 2016}
+			\begin{itemize}
+				\item B.S.E. in Civil Engineering - 2016
+                    \item \textbf{Udemy Complete Python Bootcamp - 2020:} Self-Taught coding classes in an effort to leverage Python processing scripts for use in my field. 
+                    \item \textbf{Udemy Python for Data Science Bootcamp - 2020:} Additional learning to further develop data processing and machine learning modeling techniques. 
+                    
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Technical Experience}
+		\begin{cvsubsection}{Projects}{}{}
+			\begin{itemize}
+				\item \textbf{Solution Engineering ChatGPT Assistant} (2023) Full stack application supporting user authentication, document upload, embedding, and storage. Built upon OpenAI API which sourced user queries along with reference materials as a digital replacement for the SE team. AWS Lambda, Supabase, Nodejs, Express.
+				\item \textbf{Orthoimagery Download Full Stack Application for Enterprise} (2022). Application to support large area imagery download, built in Python with PyQt front end and Pymongo database for authentication and usage tracking for billing purposes.
+                \item \textbf{Powerline Vectorization Algorithm} (2023) 
+                Machine learning based algorithm in order to better server vector content to Telecommunication industry prospects. Python code would read in variety of vector data to attempt to accurately reconstruct line networks.
+				\item \textbf{Roadway Best-Fit AI KNN Model} (2020).  Leverage Scikit Learn to run a horizontal classification model on roadway center-line point data for use in parametric roadway modeling while working as a civil engineer. 
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+         
+\end{document}
